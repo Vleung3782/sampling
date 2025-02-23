@@ -40,30 +40,90 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+To understand the reasons of high turnover rate within the entry- and lower-level positions at the company and to identify the changes needed to improve staff satisfaction and retention.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: Current employees in entry- and lower-level positions across all departments at the company
+
+Sampling Frame: All employees in entry- and lower-level positions within the company's HR database
+
+Sampling Units: Individual employees in the entry- and lower-level positions 
+
+Sampling Strategy: Stratified random sampling will be used to ensure representation across departments in the entry- and lower-level roles
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you been working at the company?
+    - <1 year
+    - 1-2 years
+    - >2-5 years
+    - >5 years
+
+2. How satisfied are you with your current role at the company?
+    - highly satisfied
+    - satisfied
+    - neutral
+    - dissatisfied
+    - highly dissatisfied
+
+3. What is the most important reason you would consider leaving the company?
+    - salary/compensation
+    - lack of career advancement
+    - workload
+    - management-related
+    - others (please specify)
+
+4. How satisfied are you with the support you receive from your direct supervisor or manager?
+    - highly satisfied
+    - satisfied
+    - neutral
+    - dissatisfied
+    - highly dissatisfied
+
+5. How would you rate the overall work-life balance at your current role?
+    - excellent
+    - good
+    - fair
+    - poor
+    - very poor
+
+6. How would you rate the company's support for professional development?
+    - excellent
+    - good
+    - fair
+    - poor
+    - very poor
+
+7. Do you feel there are good opportunities for career advancement?
+    - excellent
+    - good
+    - fair
+    - poor
+    - very poor
+
+8. Do you feel you are valued as an employee and recognized for the good work you performed?
+    - highly satisfied
+    - satisfied
+    - neutral
+    - dissatisfied
+    - highly dissatisfied
+
+9. What changes would you recommend to the company to improve job satisfaction? (Please specify)
+
+10. Would you recommend this company to your friends or relatives to work?
+    - yes
+    - no
+    - neutral
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +131,78 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type
+    - The sample is a stratified random sample of individuals aged 15 and older living in Canada's 10 provinces
+
+2. Sample size
+    - Not explicitly stated as I consider the sample size as the number of respondents, not the sample size needed to achieve acceptable sampling variability.
+    
+    - Under the Sampling and sub-sampling section of the GSS GVP document, it says "A field sample of approximately 50,000 households was used in the survey.... A completion of 24,000 questionnaires was expected". There is no actual number of respondents stated, let alone there were telephone interview respondents that was not mentioned, which would be part of the respondent count.
+
+3. Target population
+    - The target population includes all individuals aged 15 and older living in Canada's 10 provinces
+    - Excluded are full-time residents of institutions (residing for more than 6 months)
+
+4. Sampling frame
+    - The sampling frame was constructed using a combination of landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or single telephone number in the case a link between a telephone number and an address could not be established).
+
+5. Survey mode(s) 
+    2 survey modes: Data are collected directly from survey respondents
+    - CATI: Respondents were contacted by phone and interviews were conducted via telephone using a computer-assisted telephone interviewing system (CATI).
+    - Electronic Questionnaire: Invitation letters to the electronic questionnaires were sent.
+
+6. Timeline
+    - Data collection: 2018-09-04 to 2018-12-28
+
+7. Response rate
+    - The overall response rate is 41.9%
+
+8. Weights
+The survey data were weighted to adjust for non-response and to ensure the sample is representative of the target population e.g.
+    - WGHT_PER:the basic weighting factor for analysis at the person level i.e. to calculate estimates of the number of persons having one or several given characteristics
+    - Bootstrap weights: created for the purpose of design-based variance estimation
+
+9. Data processing
+    Data processing involves several steps to ensure accuracy:
+        - Data cleaning: identifying and correcting errors & inconsistencies
+        - Imputation: imputation techniques were used to fill in missing data to maintain the integrity of the survey dataset
+        - Weighting: weights were applied to survey data to adjust for sampling design & non-response
+
+10. Cleaning, imputation, etc
+        - Cleaning & imputation are part of the data processing steps as described above.
+        - Cleaning: examples - edits were performed automatically & manually at various stages of processing at macro & micro levels, including family, consistency & flow edits. Respondent age was checked against date of birth. The CATI data capture program allowed a valid range of codes for each question and built-in edits, and automatically follows the flow of the questionnaire.
+        - Imputation: It was carried out in 9 steps detailed under the Error Detection section of the GSS GVP document.
+
+11. Sources of error
+    The results of this survey are subject to sampling & non-sampling errors:
+    
+    Sampling error:
+        - sampling error arises from sampling variability as data estimates based on a sample will vary from sample to sample, and they will be different from the results that would have been obtained from a complete census i.e. sample not perfectly representing the population
+    
+    Non-Sampling errors:
+        - Coverage errors: households without telephones, as well as households with telephone services not covered by the current frame represent a part of the target population that was excluded from the surveyed population
+        - Non-response error: at the household level and the individual level 
+        - Measurement errors e.g. social desirability bias (overreporting of charitable activities), response errors due to recall bias, interviewer quality
+        - Data processing errors e.g. transcription errors
+
+12. Limitations, known biases, etc
+    Limitations:
+        - subject to sampling & non-sampling errors as described above
+        - limited generalizability i.e. external validity due to exclusion of sub-populations not represented in the sample e.g. institutionalized residents
+
+    Known Biases:
+        - sampling bias due to under- and over- representation of certain sub-populations e.g. French & English responses to survey only.
+        - non-response bias
+        - social desirability bias
+        - recall bias 
+
+13. Link to documentation and any additional sources used
+    - General Social Survey - Giving, Volunteering and Participating (GSS GVP) (https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430)
+
+    - ARCHIVED - General Social Survey - Giving, Volunteering and Participating, 2018 (Main)
+    https://www23.statcan.gc.ca/imdb/p3Instr.pl?Function=assembleInstr&a=1&&lang=en&Item_Id=1183690
+ 
+
 ```
 
 ## Rubric
